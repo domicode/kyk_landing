@@ -1,0 +1,231 @@
+/* line 5, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+html {
+  background: url(http://www.domidesign.ch/pics/toronto.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* apply a natural box layout model to all elements */
+/* line 14, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 19, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+.landingpage {
+  width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Century Gothic", Arial, sans-serif;
+}
+
+/* line 27, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+.content {
+  width: 400px;
+  margin: 0px auto;
+  text-align: center;
+  font-family: "Century Gothic", Arial, sans-serif;
+}
+
+/* line 36, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+h1 {
+  font-size: 4rem;
+}
+
+/* line 40, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+::-webkit-input-placeholder {
+  color: #a9ecff;
+}
+
+/* line 41, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+::-moz-placeholder {
+  color: #a9ecff;
+}
+
+/* firefox 19+ */
+/* line 42, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+:-ms-input-placeholder {
+  color: #a9ecff;
+}
+
+/* ie */
+/* line 43, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+input:-moz-placeholder {
+  color: #a9ecff;
+}
+
+/* line 46, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+#email_email {
+  height: 60px;
+  width: 400px;
+  font-size: 2rem;
+  padding: 10px 20px;
+  border-radius: 25px 25px 0px 0px;
+  border: none;
+  color: #a9ecff;
+  transition: 1s;
+  background-color: white;
+  text-align: center;
+  background-color: #3c3c3c;
+}
+
+/* line 61, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+#email_email:focus {
+  outline: none;
+  background-color: #a9ecff;
+  color: black;
+  transition: 1s;
+}
+
+/* line 68, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+#button {
+  margin-top: -10px;
+  height: 50px;
+  width: 400px;
+  border-radius: 0px 0px 25px 25px;
+  background-color: #ffc5ac;
+  color: black;
+  font-size: 1.5rem;
+  border: none;
+  transition: 0.8s;
+}
+
+/* line 81, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+#button:hover {
+  background-color: #a9ecff;
+  transition: 0.5s;
+  color: grey;
+}
+
+/* line 88, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+#button:active {
+  outline: none;
+  background-color: white;
+}
+
+/* line 93, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+#button:focus {
+  outline: none;
+}
+
+/* line 98, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+.social-media {
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+}
+
+/* line 104, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+.fb-share-button {
+  float: left;
+}
+
+/* line 109, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/emails.css.scss */
+.footer a {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: grey;
+  font-family: "Century Gothic", Arial, sans-serif;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+/* line 1, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 8, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 14, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 20, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #000;
+}
+/* line 22, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #666;
+}
+/* line 25, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 32, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 37, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 41, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 47, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 54, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 64, /Users/dominiqueschuwey/Documents/Coding/projects/kyk_landingpage/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
